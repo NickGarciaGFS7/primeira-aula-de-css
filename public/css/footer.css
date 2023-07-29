@@ -1,0 +1,18 @@
+/*estilos relacionados ao footer*/
+
+footer {
+    text-align: center;
+    border-top: 5px solid rgb(255, 0, 128);
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child {
+    color: black;
+}
+
+footer section span:last-child {
+    color: rgb(255, 0, 128);
+}

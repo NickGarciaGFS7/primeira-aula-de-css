@@ -1,0 +1,36 @@
+/*estilos relacionados à página Index*/
+
+main {
+    text-align: center;
+}
+
+.cover-container figure img {
+    width: 100%;
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+main section abbr {
+    color: black;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container {
+        width: 35%;
+    }
+
+    .cover-container,
+    .section-video {
+        display: inline-block;
+    }
+
+    main .section-azure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+}
